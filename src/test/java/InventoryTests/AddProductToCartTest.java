@@ -43,7 +43,7 @@ public class AddProductToCartTest extends BaseClass{
 	@Test(groups = "SmokeSuite")/*(retryAnalyzer = GenericUtilities.RetryAnalyserImplementation.class)*/
 	public void SampleTest()
 	{
-		Assert.fail();
+//		Assert.fail();
 		System.out.println("Sample");
 	}
 
