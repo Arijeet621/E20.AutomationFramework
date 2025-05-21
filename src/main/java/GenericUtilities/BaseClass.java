@@ -48,7 +48,7 @@ public class BaseClass {
 	{
 		String URL = fUtil.readDataFromPropertyfile("url");
 		
-		driver = new FirefoxDriver();
+		driver = new EdgeDriver();
 		
 //		//For Cross Browser execution
 //		//Driver is exhibiting Run time Polymorphism here
