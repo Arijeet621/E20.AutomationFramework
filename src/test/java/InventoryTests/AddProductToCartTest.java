@@ -46,5 +46,4 @@ public class AddProductToCartTest extends BaseClass{
 //		Assert.fail();
 		System.out.println("Sample");
 	}
-
 }
