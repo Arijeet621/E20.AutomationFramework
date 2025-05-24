@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="InventoryTests.AddProductToCartTest">
+      <class name="Practice.SampleJDBC">
         <methods>
-          <include name="asConfig"/>
-          <include name="bsConfig"/>
-          <include name="acConfig"/>
-          <include name="SampleTest"/>
-          <include name="bcConfig"/>
-          <include name="bmConfig"/>
-          <include name="amConfig"/>
+          <include name="executeQueryJDBC"/>
         </methods>
-      </class> <!-- InventoryTests.AddProductToCartTest -->
+      </class> <!-- Practice.SampleJDBC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
